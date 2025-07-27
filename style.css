@@ -169,3 +169,18 @@ html, body {
   font-weight: 700;
   text-align: center; /* Qendra e tekstit */
 }
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Menunë dhe logon në skajet */
+  padding: 10px 20px;
+  background-color: #f9e2e7;
+}
+
+/* Shtyn logon në të djathtë */
+.logo {
+  margin-left: auto;
+  font-weight: bold;
+  font-size: 24px;
+  color: #333;
+}
